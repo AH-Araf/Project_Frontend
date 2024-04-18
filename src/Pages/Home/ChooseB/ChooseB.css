@@ -1,0 +1,8 @@
+.chooseB-img img {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    display: flex;
+    /* border: 1px solid grey; */
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,42 @@
+.background {
+    background-image: url('../../assets/home/banner/banner7.jpg');
+    height: 900px;
+    width: 100%;
+}
+
+.about {
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.about:hover {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.aboutp h2 {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.aboutp h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(42, 95, 26);
+}
+
+/* span {
+    color: orange;
+} */
+
+.about p {
+    font-size: 17px;
+    font-weight: 600;
+}

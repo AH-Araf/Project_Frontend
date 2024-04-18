@@ -1,0 +1,27 @@
+.image-gallery {
+    width: 680px;
+    height: 300px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section2 {
+    width: 680px;
+}
+
+@media only screen and (max-width: 516px) {
+    .image-gallery {
+        width: 400px;
+        height: 220px;
+    }
+
+    .image-section2 {
+        width: 400px;
+    }
+
+}

@@ -1,0 +1,7 @@
+.admission-hover {
+    transition-duration: 1s;
+}
+.admission-hover:hover{
+    background-color:aliceblue;
+    border-radius: 40px;
+}

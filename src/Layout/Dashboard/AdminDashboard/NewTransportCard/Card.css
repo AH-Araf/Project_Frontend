@@ -1,0 +1,44 @@
+
+.transport-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+@media print {
+    .transport-cards-container {
+        background-color: white;
+        /* Default background color for printing */
+    }
+
+    .bg-red-200 {
+        background-color: #FEB2B2;
+        /* Set background color for fee of 8500 */
+    }
+
+    .bg-blue-200 {
+        background-color: #A7F3D0;
+        /* Set background color for fee of 5500 */
+    }
+
+    .bg-green-200 {
+        background-color: #A7F3D0;
+        /* Set background color for fee of 4000 */
+    }
+
+    .bg-yellow-200 {
+        background-color: #FDE047;
+        /* Set background color for fee of 3500 */
+    }
+
+    .bg-gray-300 {
+        background-color: #E5E7EB;
+        /* Default background color for other fee values */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .transport-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
