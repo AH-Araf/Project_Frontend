@@ -15,6 +15,7 @@ const StudentLogin = () => {
         const email = form.email.value;
         const password = form.password.value;
 
+        
         try {
             const result = await signIn(email, password);
             const user = result.user;

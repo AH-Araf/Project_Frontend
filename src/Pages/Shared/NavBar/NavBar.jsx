@@ -107,7 +107,7 @@ const NavBar = () => {
                             user ? <>
                                 <div className="flex justify-center items-center font-bold gap-4 text-white bg-red-500 px-4 rounded-lg">
                                     <button className="" onClick={handleLogOut}>LogOut</button>
-                                    <p>{user?.displayName}</p>
+                                    {/* <p>{user?.displayName}</p> */}
                                 </div>
                             </> : <>
                                     <li tabIndex={0}>

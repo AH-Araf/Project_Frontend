@@ -7,6 +7,7 @@ import Swal from 'sweetalert2';
 import { AuthContext } from "../../../Providers/AuthProvider";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
+
 const Register = () => {
     const [showPassword, setShowPassword] = useState(false); // State to manage password visibility
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
