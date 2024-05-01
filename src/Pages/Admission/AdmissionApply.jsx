@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 import 'react-datepicker/dist/react-datepicker.css';
 import Swal from 'sweetalert2';
+import './Admission.css'
 
 
 
@@ -77,6 +78,7 @@ const AdmissionApply = () => {
                 });
             });
     };
+    
 
     return (
         <div data-aos="zoom-in-down" className='AdminDashBoardMainSection m-2'>
@@ -87,7 +89,7 @@ const AdmissionApply = () => {
                 <form onSubmit={handleSubmit(handleAddAdmission)}>
 
 
-                    <section className='flex gap-4 '>
+                    <section className='apply-main-section-boxes gap-4 '>
                         <section className="">
 
                             <div className="form-control w-full max-w-xs">

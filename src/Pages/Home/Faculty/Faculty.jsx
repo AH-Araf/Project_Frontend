@@ -1,7 +1,5 @@
-// import ECE from '../../../assets/DepartmentFaculty/ECE.jpg';
-// import HUM from '../../../assets/DepartmentFaculty/HUM.png';
-// import Business from '../../../assets/DepartmentFaculty/Business.png';
-// import CE from '../../../assets/DepartmentFaculty/civil.jpg';
+import './FacultyDesign.css'
+
 import { Link } from 'react-router-dom';
 const Faculty = () => {
     return (
@@ -28,12 +26,11 @@ const Faculty = () => {
                                 </button>
                                 <button className='hover:bg-green-900 border text-lg text-green-900 border-green-900  w-[530px] rounded py-1 mt-2 hover:text-white'>
                                     <Link>Department of Information and Communication Technology (ICT)</Link>
-
                                 </button>
                             </div>
                         </div>
-
                     </div>
+
                     {/* Faculty of Science and Humanities */}
 
                     {/* <img className="h-[150px] w-[150px] border  rounded-full shadow-sm" src={HUM} alt="" /> */}

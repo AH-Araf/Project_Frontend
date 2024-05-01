@@ -57,7 +57,7 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 516px) {
+@media only screen and (max-width: 550px) {
     .all-Notices {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -65,5 +65,15 @@
         gap: 40px 40px;
     }
 
+    .search-box {
+        border: 3.5px solid gray;
+        margin: 0px 12px;
+        margin-top: 15px;
+        width: 290px;
+        height: 45px;
+        padding: 0px 10px;
+        border-radius: 10px;
+
+    }
 
 }

@@ -29,6 +29,7 @@ const AllStudentCalculate = () => {
             return acc;
         }, {});
 
+    
         return { totalStudents, subjectCounts, genderCounts };
     };
 

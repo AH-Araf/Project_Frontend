@@ -48,6 +48,7 @@ import CertificateVerificationComp from "../Pages/BAIUST/CertificateVerification
 import Home from "../Pages/Home/Home/Home";
 import NotFound from "../Pages/NotFound/NotFound";
 import ManageStudentResult from "../Layout/Dashboard/AdminDashboard/ManageStudentResult/ManageStudentResult";
+import Transcript from "../Layout/Dashboard/StudentDashboard/Transcript/Transcript";
 // import ManageSingleAdmission from "../Layout/Dashboard/AdminDashboard/ManageAdmission/ManageSingleAdmission";
 
 
@@ -211,6 +212,10 @@ export const router = createBrowserRouter([
             {
                 path: 'TeachersEvaluation',
                 element: <TeachersEvaluation></TeachersEvaluation>
+            },
+            {
+                path: 'Transcript',
+                element: <Transcript></Transcript>,
             },
             
 

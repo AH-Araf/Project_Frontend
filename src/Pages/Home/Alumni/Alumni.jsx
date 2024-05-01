@@ -4,6 +4,7 @@ import img3 from "../../../assets/home/Alumni/mehedi.jpeg";
 import img4 from "../../../assets/home/Alumni/jubayer.jpeg";
 import img5 from "../../../assets/home/Alumni/shawon.jpeg";
 
+
 const Alumni = () => {
     return (
         <div>
@@ -57,10 +58,7 @@ const Alumni = () => {
 
                 </div>
 
-                <div>
-                    <h1 className="text-4xl mt-36">...</h1>
-                </div>
-          
+
                 
             </div>
             {/* ------------------------------------ */}

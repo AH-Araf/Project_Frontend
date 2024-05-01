@@ -1,3 +1,39 @@
 .img-design img {
     height: 550px;
 }
+
+.full-design {
+    position: absolute;
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    /* Assuming 1 unit = 0.25rem, so 6 units = 1.5rem */
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+@media only screen and (max-width: 550px) {
+    .img-design img {
+        height: 210px;
+        width: 100%;
+    }
+
+    .full-design {
+        height: 250px;
+        width: 94%;
+        height: 94%;
+        padding: 1rem;
+    }
+
+    .img-design p {
+        height: 550px;
+    }
+}

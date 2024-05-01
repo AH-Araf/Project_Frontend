@@ -18,66 +18,52 @@ const Banner = () => {
                 <div className="img-design">
 
                     <img className=" w-full h-full object-cover" src={banner1} alt="Banner" />
-                    <div className="absolute h-[400px]   w-[1200px] item-center p-6 text-center top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white ">
-                        <p className="mt-20  text-5xl font-bold">
-                            Bangladesh Army International University of Science and Technology
-                        </p>
-                        <p className=" text-2xl font-bold mt-4">Cumilla, Bangladesh</p></div>
+                    <div className="full-design">
+                        <h1>Bangladesh Army International University of Science and Technology</h1> 
+                        <p>Cumilla, Bangladesh</p>
+                    </div>
 
                 </div>
                 <div className="img-design">
 
                     <img className=" w-full h-full object-cover" src={banner2} alt="Banner" />
-                    <div className="absolute h-[400px]   w-[1200px] item-center p-6 text-center top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white ">
-                        <p className="mt-20  text-5xl font-bold">
-                            Bangladesh Army International University of Science and Technology
-                        </p>
-                        <p className=" text-2xl font-bold mt-4">Cumilla, Bangladesh</p></div>
+                    <div className="full-design">
+                        <h1>Bangladesh Army International University of Science and Technology</h1>
+                        <p>Cumilla, Bangladesh</p></div>
 
                 </div>
                 <div className="img-design">
                     <img className=" w-full h-full object-cover" src={banner3} alt="Banner" />
-                    <div className="absolute h-[400px]   w-[1200px] item-center p-6 text-center top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white ">
-                        <p className="mt-20  text-5xl font-bold">
-                            Bangladesh Army International University of Science and Technology
-                        </p>
-                        <p className=" text-2xl font-bold mt-4">Cumilla, Bangladesh</p></div>
+                    <div className="full-design">
+                        <h1>Bangladesh Army International University of Science and Technology</h1>
+                        <p>Cumilla, Bangladesh</p></div>
 
                 </div>
                 <div className="img-design">
                     <img className=" w-full h-full object-cover" src={banner4} alt="Banner" />
-                    <div className="absolute h-[400px]   w-[1200px] item-center p-6 text-center top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white ">
-                        <p className="mt-20  text-5xl font-bold">
-                            Bangladesh Army International University of Science and Technology
-                        </p>
-                        <p className=" text-2xl font-bold mt-4">Cumilla, Bangladesh</p></div>
+                    <div className="full-design">
+                        <h1>Bangladesh Army International University of Science and Technology</h1>
+                        <p>Cumilla, Bangladesh</p></div>
 
                 </div>
                 <div className="img-design">
                     <img className=" w-full h-full object-cover" src={banner5} alt="Banner" />
-                    <div className="absolute h-[400px]   w-[1200px] item-center p-6 text-center top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white ">
-                        <p className="mt-20  text-5xl font-bold">
-                            Bangladesh Army International University of Science and Technology
-                        </p>
-                        <p className=" text-2xl font-bold mt-4">Cumilla, Bangladesh</p></div>
+                    <div className="full-design">
+                        <h1>Bangladesh Army International University of Science and Technology</h1>
+                        <p>Cumilla, Bangladesh</p></div>
 
                 </div>
                 <div className="img-design">
                     <img className=" w-full h-full " src={banner6} alt="Banner" />
-                    <div className="absolute h-[400px]   w-[1200px] item-center p-6 text-center top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white ">
-                        <p className="mt-20  text-5xl font-bold">
-                            Bangladesh Army International University of Science and Technology
-                        </p>
-                        <p className=" text-2xl font-bold mt-4">Cumilla, Bangladesh</p></div>
+                    <div className="full-design">
+                        <h1>Bangladesh Army International University of Science and Technology</h1>
+                        <p>Cumilla, Bangladesh</p></div>
 
                 </div>
-                {/* <div>
-                    <img src={banner7} />
-                    
-                </div> */}
             </Carousel>
         </div>
     );
 };
+
 
 export default Banner;

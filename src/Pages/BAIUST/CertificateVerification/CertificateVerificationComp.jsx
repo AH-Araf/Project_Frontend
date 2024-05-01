@@ -7,6 +7,7 @@ const CertificateVerificationComp = () => {
     const [verificationMessage, setVerificationMessage] = useState('');
     const [certificate, setCertificate] = useState(null);
 
+
     const handleVerification = async () => {
         try {
             const response = await fetch(` http://localhost:5000/certificate/${department}/${studentId}`);

@@ -1,0 +1,56 @@
+.f-main-section img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: 2px solid red;
+    padding: 3px;
+}
+
+.f-main-section div {
+    width: 400px;
+    margin: 20px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.f-main-section div:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.f-main-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.f-main-section h2 {
+    font-weight: bolder;
+}
+
+.youtube-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+
+@media only screen and (max-width: 650px) {
+    .f-main-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .f-main-section div {
+        width: 320px;
+    }
+        .youtube-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+}

@@ -1,21 +1,19 @@
 import background from '../../assets/home/banner/banner7.jpg';
 import BVLogo from '../../assets/Logo/bvLogo.png';
 
-import './About.css';
+import './About.css'
 const About = () => {
     return (
         <div className='aboutp'>
             <div>
 
-                <img className='h-[500px] w-full' src={background} alt="" />
-
-
-                <p className='absolute h-[300px] -mt-6  w-[1200px] item-center p-6 pt-16
-          text-center text-8xl font-bold top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white'>My BAIUST</p>
+                <img className=' h-[300px]  lg:h-[500px]  lg:w-full' src={background} alt="" />
+                <p className='absolute h-[150px] lg:h-[300px] -mt-32 lg:-mt-6  w-[400px] lg:w-[1200px] item-center p-6 pt-16
+          text-center text-3xl lg:text-8xl font-bold top-1/2 left-1/2 bg-opacity-50 bg-black transform -translate-x-1/2 -translate-y-1/2 text-white'>My BAIUST</p>
             </div>
             {/* ------------------------banner end-------------------------------------------------         */}
 
-            <div className='flex mt-10 ml-32'>
+            <div className='lg:flex mt-10 ml-10 lg:ml-32'>
 
                 {/* ----------------Teachers------------ */}
                 <div className=' m-3 border-2 about'>

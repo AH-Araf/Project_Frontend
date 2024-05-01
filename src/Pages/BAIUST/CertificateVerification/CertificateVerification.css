@@ -1,0 +1,10 @@
+.cer-sec {
+    display: flex;
+}
+
+@media only screen and (max-width: 650px) {
+    .cer-sec {
+        display: flex;
+        flex-direction: column;
+    }
+}

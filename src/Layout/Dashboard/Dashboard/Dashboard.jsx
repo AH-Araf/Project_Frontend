@@ -2,12 +2,13 @@ import { useContext, useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 import { BiBookOpen } from "react-icons/bi";
-import { AiOutlineCar, AiOutlineFundView, AiOutlineIdcard, AiOutlineUser, AiOutlineInsertRowRight, AiOutlineFileProtect } from "react-icons/ai";
-import { BsFileEarmarkDiff } from "react-icons/bs";
+import { AiOutlineCar, AiOutlineFundView, AiOutlineIdcard, AiOutlineUser, AiOutlineFileProtect } from "react-icons/ai";
+
 // import { MdOutlinePayment } from "react-icons/md";
 import { FaStreetView } from "react-icons/fa";
 
 import Clock from "./Clock/Clock";
+import { FaCertificate } from "react-icons/fa6";
 import { AuthContext } from "../../../Providers/AuthProvider";
 import axios from "axios";
 import StudentDashNavProfile from "./StudentDashNavProfile";
@@ -90,13 +91,10 @@ const Dashboard = () => {
                                     <li className="mb-2"><NavLink to="/dashboard/StudentProfile"><AiOutlineUser></AiOutlineUser>Student Profile</NavLink></li>
                                     <li className="mb-2"><NavLink to="/dashboard/AllCourses"> <BiBookOpen></BiBookOpen>All Courses</NavLink></li>
                                     <li className="mb-2"><NavLink to="/dashboard/SemesterRegistrations"><AiOutlineFileProtect></AiOutlineFileProtect>Semester Registrations</NavLink></li>
-                                    {/* <li><NavLink to="/dashboard/ExamRegistrations"><AiOutlineEdit></AiOutlineEdit> Exam Registrations</NavLink></li> */}
                                     <li className="mb-2"><NavLink to="/dashboard/TransportRegistrations"><AiOutlineCar></AiOutlineCar>Transport Registrations</NavLink></li>
-                                    {/* <li><NavLink to="/dashboard/PaymentHistory"><MdOutlinePayment></MdOutlinePayment>Payment History</NavLink></li> */}
                                     <li className="mb-2"><NavLink to="/dashboard/AdmitCard"><AiOutlineIdcard></AiOutlineIdcard> Admit Card</NavLink></li>
                                     <li className="mb-2"><NavLink to="/dashboard/SemesterResult"><AiOutlineFundView></AiOutlineFundView>Semester Result</NavLink></li>
-                                    <li className="mb-2"><NavLink to="/dashboard/AttendanceReport"><AiOutlineInsertRowRight></AiOutlineInsertRowRight>Attendance Report</NavLink></li>
-                                    <li className="mb-2"><NavLink to="/dashboard/TeachersEvaluation"><BsFileEarmarkDiff></BsFileEarmarkDiff>Teachers Evaluation</NavLink></li>
+                                    <li className="mb-2"><NavLink to="/dashboard/Transcript"><FaCertificate />Transcript Download</NavLink></li>
                                     <li className="mb-2"><NavLink to="/notice"><FaRegClipboard />Notice Board</NavLink></li>
                                 </>
                             )

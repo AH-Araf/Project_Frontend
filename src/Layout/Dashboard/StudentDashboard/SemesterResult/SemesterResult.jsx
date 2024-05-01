@@ -23,6 +23,7 @@ const SemesterResult = () => {
             });
     }, [user?.email]);
 
+
     // Function to calculate GPA based on marks
     const calculateGPA = (marks) => {
         if (marks >= 80) {

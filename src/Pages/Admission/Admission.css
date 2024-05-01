@@ -1,7 +1,21 @@
 .admission-hover {
     transition-duration: 1s;
 }
-.admission-hover:hover{
-    background-color:aliceblue;
+
+.admission-hover:hover {
+    background-color: aliceblue;
     border-radius: 40px;
+}
+
+.apply-main-section-boxes {
+    display: flex;
+}
+
+@media only screen and (max-width: 650px) {
+    .apply-main-section-boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

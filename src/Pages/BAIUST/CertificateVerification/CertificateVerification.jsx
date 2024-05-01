@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import QRCode from 'qrcode.react';
 import Loader from '../../../components/Loader/Loader';
-
+import './CertificateVerification.css'
 
 const CertificateVerification = () => {
     const [department, setDepartment] = useState('');
@@ -20,6 +20,7 @@ const CertificateVerification = () => {
                 const response = await fetch(`http://localhost:5000/certificate/${department}/${studentId}`);
                 const data = await response.json();
 
+    
                 if (response.ok) {
                     setCertificate(data);
                     setVerificationMessage('Verification Successful');
@@ -87,7 +88,7 @@ const CertificateVerification = () => {
 
             <div data-aos="zoom-in" className='flex justify-center bg-white shadow-2xl py-5 mx-10 px-2 rounded-2xl mt-5'>
                 {certificate && (
-                    <div className='flex gap-x-40'>
+                    <div className='cer-sec gap-x-40'>
                         <div>
                             <h3 className='mb-3 text-center text-lg font-semibold bg-slate-200'>Certificate Details:</h3>
                             <p className='font-bold text-sm'><span className='font-bold text-blue-600'>Student Name:</span> {certificate.StudentName}</p>
