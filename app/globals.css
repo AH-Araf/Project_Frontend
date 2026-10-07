@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
+  --color-paper: #f7f8f6;
+  --color-ink: #12201b;
+  --color-moss: #0c7a45;
+  --color-sand: #e7f2eb;
+  --color-mute: #5c6b64;
+  --color-line: #e2e8e4;
+  --color-clay: #9a3d32;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: #0c7a45;
+  color: #f7f8f6;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@layer base {
+  button,
+  select,
+  summary,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  input[type="file"],
+  input[type="checkbox"],
+  input[type="radio"] {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  select:disabled,
+  input:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+}
